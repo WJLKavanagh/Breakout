@@ -1,8 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include "GameManager.h"
+#include <iostream>
 
 int main()
 {
+
     sf::RenderWindow window(sf::VideoMode(1000, 800), "Breakout");
     GameManager gameManager(&window);
     gameManager.initialize();
